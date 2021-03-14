@@ -10,7 +10,7 @@ public class SqlSrvDBConn {
     		/**加载并注册 SQLServer 的 JDBC 驱动*/
     		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");	//加载指定的驱动程序
 			/* 编写连接字符串，获取创建连接。 */
-    		conn=DriverManager.getConnection("jdbc:sqlserver://localhost:55419;databaseName=EducationalAdministration","sa","supertom98");
+    		conn=DriverManager.getConnection("jdbc:sqlserver://localhost:55419;databaseName=EducationalAdministration","sa","xxx");
     	}catch(Exception e){
     		e.printStackTrace();
     	}
